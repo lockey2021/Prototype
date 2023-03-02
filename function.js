@@ -4,12 +4,13 @@ function auth() {
 
     if (username == "admin" && password == "admin") {
         document.body.innerHTML="";
-        window.location.replace("./config.html");
+        window.location.replace("./config.php");
     }
     else {
         return;
     }
 }
+
 
 function show() {
     var x = document.getElementById("password");

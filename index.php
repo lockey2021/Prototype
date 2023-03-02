@@ -6,6 +6,22 @@
     <script defer src="function.js"></script>
 </head>
 <body>
+    <?php
+        $hostname = "localhost";
+        $username = "root";
+        $password = "6d-]#Pe)f6U6D*1W3Y4Mn]i\LoHH-dFF";
+        $db = "users";
+
+        $dbconnect=mysqli_connect($hostname,$username,$password,$db);
+
+        if($dbconnect->connect_error) {
+            die("Database connection failed: " . $dbconnect->connect_error);
+        }
+
+        $query = mysqli_query($dbconnect, "SELECT * FROM username")
+            or die (mysqli_error($dbconnect));
+
+    ?>
     <form>
         <div class="input-control">
             <input id="username"  placeholder="Username" type="text">
