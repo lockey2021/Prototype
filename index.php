@@ -31,6 +31,8 @@
         </div>
         <div class="button-control">
         <button type="button" class="login-btn" onclick="auth()">Login</button>
+        </div>
+        <div class="checkbox">
         <input type="checkbox" class="checkbox" onclick="show()">Show password
         </div>
     </form>
