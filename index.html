@@ -1,5 +1,7 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Sono">
     <meta charset="UTF-8">
     <title>KNX - Login</title>
     <link rel="stylesheet" href="style.css">
@@ -23,18 +25,19 @@
 
     ?>
     <form>
-        <div class="input-control">
-            <input id="username"  placeholder="Username" type="text">
+        <div class="input-control menu " id="name">
+            <input class="menu2" id="username"  placeholder="Username" type="text">
         </div>
-        <div class="input-control">
-            <input id="password" placeholder="Password" type="text">
+        <div class="input-control menu " id="pass">
+            <input class="menu2" id="password" placeholder="Password" type="password">
         </div>
-        <div class="button-control">
+        <div class="checkbox menu3">
+            <input type="checkbox" class="checkbox checkbox2" onclick="show()">Show password
+        </div>
+        <div class="button-control menu">
         <button type="button" class="login-btn" onclick="auth()">Login</button>
         </div>
-        <div class="checkbox">
-        <input type="checkbox" class="checkbox" onclick="show()">Show password
-        </div>
+       
     </form>
 </body>
 </html>

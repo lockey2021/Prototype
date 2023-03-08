@@ -1,1 +1,57 @@
 
+body {background-color: #40513B;}
+div{font-family: 'Sono', serif;}
+
+.menu {text-align: center;}
+
+.menu3{
+    text-align: center;
+    padding-right: 18%;
+    padding-top: 8px;
+}
+
+input{
+    font-family: 'Sono', serif;
+}
+
+
+
+.menu2{border-radius: 7px;
+    border: 2px solid #EDF1D6;
+    color:dimgray;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #EDF1D6;
+    margin: 2px;
+    outline: none;
+    background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  width: 25%;
+  
+}
+#password{
+    background-image:url(images/lock.png);
+}
+
+#username{
+    background-image:url(images/contact.png);
+}
+
+.checkbox2 {
+    width: 1.1em;
+    height: 1.1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox2:checked{
+    background-color: #00337C;
+    border: #00337C;
+}
