@@ -6,8 +6,8 @@ div{font-family: 'Sono', serif;}
 
 .menu3{
     text-align: center;
-    padding-right: 18%;
-    padding-top: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 input{
@@ -27,7 +27,7 @@ input{
     background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
-  width: 25%;
+  
   
 }
 #password{
@@ -55,3 +55,23 @@ input{
     background-color: #00337C;
     border: #00337C;
 }
+
+.login-btn{
+    border: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { .login-btn{ font-size: 24px;} }
+
+@media only screen  and (min-width : 650px) { .login-btn{ font-size: 24px;} input{width: 75%; height: 5%;} }
+@media only screen  and (min-width : 800px) { .login-btn{ font-size: 24px;} input{width: 60%; height: 5%;} .menu2{font-size: 20px;} }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) { .login-btn{ font-size: 24px;} input{width: 50%; height: 5%;}}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) { .login-btn{ font-size: 24px;} }
